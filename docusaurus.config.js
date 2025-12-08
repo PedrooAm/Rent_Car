@@ -14,6 +14,15 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+  url: 'https://github.com/',
+  baseUrl: '/Rent_Car',
+  organizationName: 'PedrooAm',
+  projectName: 'Rent_Car',
+  deploymentBranch: 'gh-pages',
+  trailingSlash:false,
+
+
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
