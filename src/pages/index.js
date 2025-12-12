@@ -63,11 +63,6 @@ export default function Home() {
 
                 <hr />
 
-                <section>
-                    <h2>Contato</h2>
-                    <p>Telefone: (11) 98765-4321</p>
-                    <p>Email: contato@nosso-rentacar.com.br</p>
-                </section>
             </main>
         </Layout>
     );

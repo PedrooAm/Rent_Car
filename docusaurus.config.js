@@ -92,10 +92,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'NOSSO Rent a Car',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'img/n.png',
         },
         items: [
           {
@@ -106,7 +106,27 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label: 'Frota',
+            to: '/docs/frota/carros-economicos',
+            position: 'left',
+          },
+          {
+            label: 'Promoções',
+            to: '/docs/promocoes/desconto-corporativo',
+            position: 'left',
+          },
+          {
+            label: 'Informações',
+            to: '/docs/info/precos',
+            position: 'left',
+          },
+          {
+            label: 'Contato',
+            to: '/blog',  // ou um email
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/PedrooAm/RentACar',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,50 +136,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Contactos',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Telefone', href: 'tel:+3514567890545' },
+              { label: 'WhatsApp', href: 'https://web.whatsapp.com/' },
+              { label: 'Email', href: 'mailto:nosso@rent_acar.com' },
             ],
           },
           {
-            title: 'Community',
+            title: 'Ajuda',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+              { label: 'FAQ', to: '/docs/faq' },
+              { label: 'Perguntas Frequentes', href: 'docs/info/faq' },
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              { label: 'Blog', to: '/blog' },
+              { label: 'GitHub', href: 'https://github.com/PedrooAm/Rent_Car' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NOSSO Rent a Car.`,
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.githubDark,
       },
     }),
 };
