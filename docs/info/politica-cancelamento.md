@@ -1,15 +1,29 @@
-# Política de Cancelamento
+# 📄 Política de Cancelamento
 
-## Conheça os nossos Termos
+## Termos e Condições de Cancelamento
 
-### Até 48 Horas Antes
-Reembolso integral do valor pago.
+Para garantir transparência e um melhor atendimento, estabelecemos a seguinte **Política de Cancelamento**, aplicável a todas as reservas. Recomendamos a leitura atenta dos prazos e condições abaixo:
 
-### De 24 a 48 Horas
-Desconto de 30% do valor total.
+### ⏰ Cancelamentos com Até 48 Horas de Antecedência
+- Reembolso **integral (100%)** do valor pago.  
+- Nenhuma taxa ou penalização será aplicada.
 
-### Menos de 24 Horas
-Perda de 50% do valor pago.
+### ⏳ Cancelamentos Entre 24 e 48 Horas
+- Aplicação de uma taxa administrativa correspondente a **30% do valor total da reserva**.  
+- Reembolso de **70%** do valor pago.
 
-### No Dia
-Cobrança integral da diária.
+### ⚠️ Cancelamentos com Menos de 24 Horas de Antecedência
+- Aplicação de penalização de **50% do valor total pago**.  
+- Reembolso de **50%** do montante.
+
+### 📅 Cancelamento no Próprio Dia da Reserva
+- **Cobrança integral da diária**, sem direito a reembolso.
+
+---
+
+### ℹ️ Informações Importantes
+- O prazo de cancelamento é contado com base na **data e hora de início da reserva**.  
+- Reembolsos, quando aplicáveis, serão processados pelo mesmo método de pagamento utilizado na reserva.  
+- Em casos excecionais ou de força maior, a situação poderá ser analisada individualmente.
+
+> *Esta política poderá ser alterada sem aviso prévio. Ao efetuar uma reserva, o cliente declara que leu e concorda com os termos acima descritos.*
