@@ -89,7 +89,7 @@ export default function Home() {
                         </table>
                         <div className="table-button-wrapper">
                         
-                            <Link className="button button--primary" to="/reservar">
+                            <Link className="button button--primary" to="/docs/info/instalação">
                                 Ver Frota & Reservar Agora
                             </Link>
                         </div>
