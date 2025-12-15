@@ -132,14 +132,14 @@ const config = {
           {
             title: 'Ajuda',
             items: [
-              { label: 'FAQ', to: '/docs/faq' },
+              { label: 'FAQ', to: 'docs/info/faq' },
               { label: 'Perguntas Frequentes', href: 'docs/info/faq' },
             ],
           },
           {
             title: 'Mais',
             items: [
-              { label: 'Blog', to: '/blog' },
+             
               { label: 'GitHub', href: 'https://github.com/PedrooAm/Rent_Car' },
             ],
           },
