@@ -1,7 +1,7 @@
 :root {
   /* Cores Primárias */
   --color-petrol-blue: #0f2a44;
-  --color-gold:  #8b5cf6;
+  --color-gold:  #8b5cf6;
   
   /* Gradientes de Docusaurus (Azul Petróleo) */
   --ifm-color-primary: var(--color-petrol-blue);
@@ -10,7 +10,7 @@
 
   /* Gradientes de Docusaurus (Dourado/Violeta no Dark) */
   --ifm-color-secondary: var(--color-gold);
-  --ifm-color-secondary-light:  #8b5cf6;
+  --ifm-color-secondary-light:  #8b5cf6;
 
   /* Acentos */
   --color-accent-orange: var(--color-gold);
@@ -43,16 +43,16 @@
    ============================ */
 [data-theme='dark'] {
   --color-petrol-blue: #0f2a44;
-  --color-gold:  #8b5cf6;
+  --color-gold:  #8b5cf6;
 
   --ifm-color-primary: var(--color-gold);
-  --ifm-color-primary-dark:  #8b5cf6;
-  --ifm-color-primary-light:  #8b5cf6;
+  --ifm-color-primary-dark:  #8b5cf6;
+  --ifm-color-primary-light:  #8b5cf6;
 
   --ifm-color-secondary: var(--color-petrol-blue);
   --ifm-color-secondary-light: #1e3a5c;
 
-  --color-accent-orange:  #8b5cf6;
+  --color-accent-orange:  #8b5cf6;
   --color-accent-green: #34d399;
   
   --color-text-dark: #f9fafb;
@@ -161,11 +161,6 @@ body {
     width: 20px !important;
     height: 20px !important;
 }
-
-/* ============================
-   FIM NAVBAR
-   ============================ */
-
 
 /* ============================
    HERO SECTION
@@ -318,7 +313,7 @@ body {
 }
 
 .feature p { color: #555; line-height: 1.8; font-size: 0.95rem; }
-[data-theme='dark'] .feature p { color: #d0d0d0; }
+[data-theme='dark'] .feature p { color: #ffffff !important; }
 
 /* ============================
    CATEGORÍAS
@@ -387,7 +382,7 @@ body {
 }
 
 [data-theme='dark'] .category p,
-[data-theme='dark'] .category-card p { color: #d0d0d0; }
+[data-theme='dark'] .category-card p { color: #ffffff !important; }
 
 .categories-grid {
   display: grid;
@@ -438,7 +433,7 @@ h3 {
    ============================ */
 ul, ol { margin: 1rem 0; padding-left: 2rem; }
 li { margin-bottom: 0.8rem; color: #555; line-height: 1.6; }
-[data-theme='dark'] li { color: #d0d0d0; }
+[data-theme='dark'] li { color: #ffffff !important; }
 
 ul li::marker, ol li::marker {
   color: var(--color-accent-violet);
@@ -481,7 +476,7 @@ table { width: 100%; border-collapse: collapse; margin: 0 0 2rem 0; background: 
 table thead { background: linear-gradient(90deg, var(--color-accent-violet) 0%, var(--color-accent-light-violet) 100%); color: var(--color-body-text); }
 table th { padding: 1.2rem; text-align: left; font-weight: 700; text-transform: uppercase; font-size: 0.95rem; letter-spacing: 1.5px; }
 table td { padding: 1.2rem; border-bottom: 1px solid #e8e8e8; color: #333; font-weight: 500; }
-[data-theme='dark'] table td { border-bottom-color: #4b5563; color: #f0f0f0; }
+[data-theme='dark'] table td { border-bottom-color: #4b5563; color: #ffffff !important; }
 
 table tbody tr:hover { background: rgba(139, 92, 246, 0.08); }
 [data-theme='dark'] table tbody tr:hover { background: rgba(139, 92, 246, 0.12); }
@@ -518,13 +513,6 @@ table tbody tr:last-child td { border-bottom: none; }
   box-shadow: 0 8px 25px rgba(16, 24, 40, 0.12);
 }
 
-.table-button-wrapper .button:hover,
-.table-button-wrapper button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(139, 92, 246, 0.4);
-  background: linear-gradient(135deg, var(--color-accent-light-violet) 0%, #c4b5fd 100%);
-}
-
 /* ============================
    BOTÕES GERAIS
    ============================ */
@@ -543,38 +531,8 @@ button, .button {
   box-shadow: 0 6px 20px rgba(16, 24, 40, 0.06);
 }
 
-button:hover, .button:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(16, 24, 40, 0.12); }
-button.primary, .button.primary { background: var(--color-body-text); color: var(--color-text-light); }
-button.secondary, .button.secondary { background: transparent; border: 2px solid var(--ifm-color-secondary); color: var(--ifm-color-secondary); }
-
-[data-theme='dark'] button, [data-theme='dark'] .button {
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
-  color: var(--color-text-light);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.24);
-}
-
-[data-theme='dark'] button.secondary, [data-theme='dark'] .button.secondary {
-  color: var(--ifm-color-primary-light);
-  border-color: var(--ifm-color-primary);
-}
-
-/* Botão Primário em destaque (Reservar agora) */
-main .button--primary, main .button.button--primary {
-  display: block !important;
-  margin: 2rem auto !important;
-  width: fit-content !important;
-  padding: 16px 52px !important;
-  border-radius: 8px !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 2px !important;
-  background: linear-gradient(135deg, var(--color-accent-violet) 0%, var(--color-accent-light-violet) 100%) !important;
-  color: var(--color-text-light) !important;
-  box-shadow: 0 12px 40px rgba(139, 92, 246, 0.18) !important;
-}
-
 /* ============================
-   CÓDIGO
+   CÓDIGO (FOCO NA IMAGEM)
    ============================ */
 code {
   background: #f0ebe4;
@@ -585,7 +543,7 @@ code {
   font-size: 0.9em;
 }
 
-[data-theme='dark'] code { background: #1a1f3a; color: #c4b5fd; }
+[data-theme='dark'] code { background: #1a1f3a; color: #ffffff !important; }
 
 pre {
   background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
@@ -596,7 +554,7 @@ pre {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
-pre code { background: transparent; color: #c4b5fd; padding: 0; }
+pre code { background: transparent !important; color: #ffffff !important; padding: 0; }
 
 /* ============================
    LINKS
@@ -607,20 +565,6 @@ a {
   transition: all 0.3s ease;
   position: relative;
 }
-
-a:hover { color: #e9d5ff; }
-
-a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px; left: 0;
-  width: 0; height: 2px;
-  background: linear-gradient(90deg, var(--color-accent-light-violet) 0%, #e9d5ff 100%);
-  transition: width 0.3s ease;
-}
-
-a:hover::after { width: 100%; }
-[data-theme='dark'] a { color: #c4b5fd; }
 
 /* ============================
    RODAPÉ
@@ -634,60 +578,22 @@ a:hover::after { width: 100%; }
   box-shadow: 0 -12px 40px rgba(139, 92, 246, 0.2);
 }
 
-.footer__title {
-  color: var(--color-accent-light-violet);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1.1rem;
-}
-
-.footer a { color: #c4b5fd; }
-.footer a:hover { color: #e9d5ff; }
-
 /* ============================
-   SEÇÕES & CONTAINERS
+   RESPONSIVO E CONTAINERS
    ============================ */
 main { margin-top: 60px; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
 section { padding: 3rem 2rem; }
 
-/* ============================
-   RESPONSIVO
-   ============================ */
 @media (max-width: 768px) {
   .navbar { position: relative; }
   .navbar__inner { padding: 1rem 1.5rem; }
-  .navbar__brand { font-size: 1.2rem; letter-spacing: 2px; }
-  .navbar__items { gap: 1.5rem; }
-  .navbar__item a { font-size: 0.75rem; letter-spacing: 1px; }
-
-  .colorModeToggle {
-    width: auto !important; 
-    height: auto !important;
-    min-width: 0 !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
-  }
-  .colorModeToggle svg { width: 18px !important; height: 18px !important; }
-
-  main { margin-top: 0; }
-  .hero { padding: 80px 20px 60px 20px; margin-top: 0; }
-  .hero__title { font-size: 2.5rem; letter-spacing: 2px; }
-  .hero__subtitle { font-size: 1.2rem; }
-  .features { gap: 1.5rem; padding: 2rem 1rem; }
-  .feature { padding: 1.5rem; }
-  .category, .category-card { padding: 1.5rem; }
-  button, .button { padding: 12px 24px; font-size: 0.8rem; }
-  table { font-size: 0.9rem; }
-  table th, table td { padding: 0.8rem; }
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.5rem; }
+  .hero__title { font-size: 2.5rem; }
 }
 
-/* Esconder Navbar */
-.hide-navbar-page .navbar,
-.hide-navbar-page .navbar__inner,
-.hide-navbar-page .navbar__items {
-  display: none !important;
+[data-theme='dark'] pre,
+[data-theme='dark'] .feature,
+[data-theme='dark'] .category,
+[data-theme='dark'] .category-card {
+  color: #ffffff !important;
 }

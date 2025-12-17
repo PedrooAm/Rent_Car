@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Rent A Car',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Cars are cool',
   favicon: 'img/favicon.ico',
 
   url: 'https://github.com/',
@@ -58,8 +58,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        
         },
          blog: false,
         theme: {
@@ -108,7 +107,7 @@ const config = {
           },
           {
             label: 'Contato',
-            to: '/blog',  // ou um email
+            to: '/blog',
             position: 'right',
           },
           {
@@ -133,7 +132,7 @@ const config = {
             title: 'Ajuda',
             items: [
               { label: 'FAQ', to: 'docs/info/faq' },
-              { label: 'Perguntas Frequentes', href: 'docs/info/faq' },
+              
             ],
           },
           {
