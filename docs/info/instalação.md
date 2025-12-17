@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Rent A Car – Sistema de Aluguer de Carros
-=======
-# Sistema Rent A Car (Aplicação de Consola Python)
->>>>>>> 5ec462b6b77bad53a924b91a3366e84ab7e472ac
 
 O **Rent A Car** é uma aplicação de consola desenvolvida em **Python** pensada para o **consumidor final**, oferece uma forma simples, rápida e intuitiva de **alugar veículos** diretamente a partir do terminal.
 
@@ -10,11 +6,7 @@ Com uma interface baseada em **menus interativos**, o utilizador consegue criar 
 
 ---
 
-<<<<<<< HEAD
 ## A Experiência do Utilizador
-=======
-## 1. Estrutura do Projeto
->>>>>>> 5ec462b6b77bad53a924b91a3366e84ab7e472ac
 
 O Rent A Car foi desenhada a pensar em quem utiliza o serviço:
 
@@ -43,15 +35,15 @@ O Rent A Car foi desenhada a pensar em quem utiliza o serviço:
 A aplicação apresenta menus claros e objetivos:
 
 <div style={{
-  backgroundColor: '#0f172a', 
-  padding: '20px', 
-  borderRadius: '10px', 
-  borderLeft: '5px solid #8b5cf6', 
-  fontFamily: 'monospace', 
-  color: '#ffffff', 
-  lineHeight: '1.5', 
-  margin: '20px 0'
-}}>
+    backgroundColor: '#0f172a',
+    padding: '20px',
+    borderRadius: '10px',
+    borderLeft: '5px solid #8b5cf6',
+    fontFamily: 'monospace',
+    color: '#ffffff',
+    lineHeight: '1.5',
+    margin: '20px 0'
+  }}>
   1 - Criar Conta<br/>
   2 - Iniciar Sessão<br/>
   3 - Sair
@@ -59,7 +51,7 @@ A aplicação apresenta menus claros e objetivos:
 
 ---
 
-## Como Executar a Aplicação
+## Como Executar o Projeto
 
 ### Pré-requisitos
 * Python 3.x instalado
@@ -67,13 +59,13 @@ A aplicação apresenta menus claros e objetivos:
 ### Passos
 
 <div style={{
-  backgroundColor: '#020617', 
-  padding: '20px', 
-  borderRadius: '10px', 
-  fontFamily: 'monospace', 
-  fontSize: '14px', 
-  margin: '20px 0'
-}}>
+    backgroundColor: '#020617',
+    padding: '20px',
+    borderRadius: '10px',
+    fontFamily: 'monospace',
+    fontSize: '14px',
+    margin: '20px 0'
+  }}>
   <span style={{color: '#6ee7b7'}}># 1 - Clonar o repositório</span><br/>
   <span style={{color: '#ffffff'}}>git clone https://github.com/PedrooAm/RentACar</span><br/><br/>
   <span style={{color: '#6ee7b7'}}># 2 - Entrar na pasta</span><br/>
@@ -94,7 +86,7 @@ A aplicação apresenta menus claros e objetivos:
 
 ## Porque usar o Rent A Car?
 
-O **Rent A Car** é a escolha ideal para quem procura uma aplicação:
+O **Rent A Car** é uma escolha ideal para quem procura uma aplicação:
 
 * Fácil de utilizar
 * Rápida e eficiente
