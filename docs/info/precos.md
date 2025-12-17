@@ -24,7 +24,7 @@ Disponibilizamos uma gama completa de veículos para atender diferentes necessid
 - Planos semanais e mensais oferecem **melhor custo-benefício**.  
 - A disponibilidade dos veículos pode variar conforme a época do ano.
 
-> :warning: **Aviso:**  
+> **Aviso:**  
 > *Preços sujeitos a alteração sem aviso prévio.*
 
 Para mais informações ou para solicitar um orçamento personalizado, entre em contato conosco. Teremos prazer em atendê-lo.
