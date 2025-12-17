@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Rent A Car – Sistema de Aluguer de Carros
+=======
+# Sistema Rent A Car (Aplicação de Consola Python)
+>>>>>>> 5ec462b6b77bad53a924b91a3366e84ab7e472ac
 
 O **Rent A Car** é uma aplicação de consola desenvolvida em **Python** pensada para o **consumidor final**, oferece uma forma simples, rápida e intuitiva de **alugar veículos** diretamente a partir do terminal.
 
@@ -6,7 +10,11 @@ Com uma interface baseada em **menus interativos**, o utilizador consegue criar 
 
 ---
 
+<<<<<<< HEAD
 ## A Experiência do Utilizador
+=======
+## 1. Estrutura do Projeto
+>>>>>>> 5ec462b6b77bad53a924b91a3366e84ab7e472ac
 
 O Rent A Car foi desenhada a pensar em quem utiliza o serviço:
 
