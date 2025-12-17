@@ -39,7 +39,7 @@ const config = {
   // Usually your GitHub org/user name.
    // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -55,6 +55,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+         
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -105,11 +106,7 @@ const config = {
             to: '/docs/info/precos',
             position: 'left',
           },
-          {
-            label: 'Contato',
-            to: '/blog',
-            position: 'right',
-          },
+        
           {
             href: 'https://github.com/PedrooAm/RentACar',
             label: 'GitHub',
@@ -131,7 +128,7 @@ const config = {
           {
             title: 'Ajuda',
             items: [
-              { label: 'FAQ', to: 'docs/info/faq' },
+              { label: 'FAQ', to: '/docs/info/faq' },
               
             ],
           },
