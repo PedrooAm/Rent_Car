@@ -11,7 +11,7 @@
  */
 const sidebars = {
   tutorialSidebar: [
-    'intro',
+   
     {
       type: 'category',
       label: 'Sobre Nós',
