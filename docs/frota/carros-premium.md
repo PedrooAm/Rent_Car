@@ -1,4 +1,4 @@
-# 🚘 Carros Premium
+# Carros Premium
 
 ## Luxo, Conforto e Prestígio
 
@@ -8,7 +8,7 @@ Cada viatura representa o equilíbrio perfeito entre **engenharia de precisão**
 
 ---
 
-## ✨ O Que Define um Carro Premium?
+## O Que Define um Carro Premium?
 
 - Design moderno, elegante e intemporal  
 - Materiais nobres e acabamentos de elevada qualidade  
@@ -18,7 +18,7 @@ Cada viatura representa o equilíbrio perfeito entre **engenharia de precisão**
 
 ---
 
-## 🚗 Modelos Disponíveis
+## Modelos Disponíveis
 
 | Marca | Modelo | Categoria | Destaque |
 |------|--------|----------|----------|
@@ -37,26 +37,26 @@ Cada viatura representa o equilíbrio perfeito entre **engenharia de precisão**
 
 ---
 
-## 🌟 Benefícios Exclusivos
+## Benefícios Exclusivos
 
-- 🛋️ **Conforto de Classe Superior**  
+- **Conforto de Classe Superior**  
   Bancos em pele, ajustes elétricos, isolamento acústico avançado e climatização automática multizona.
 
-- 🧠 **Tecnologia de Última Geração**  
+- **Tecnologia de Última Geração**  
   Sistemas de infotainment intuitivos, Apple CarPlay, Android Auto, navegação GPS e assistentes digitais.
 
-- 🛡️ **Segurança Premium**  
+- **Segurança Premium**  
   Travagem automática de emergência, controlo de faixa, cruise control adaptativo e sensores de proximidade.
 
-- ⚙️ **Performance Refinada**  
+- **Performance Refinada**  
   Motores eficientes, respostas suaves e estabilidade em qualquer tipo de estrada.
 
-- 🤝 **Atendimento Personalizado**  
+- **Atendimento Personalizado**  
   Serviço exclusivo, flexível e adaptado às necessidades de cada cliente.
 
 ---
 
-## 🎯 Ideal Para
+## Ideal Para
 
 - Executivos e profissionais exigentes  
 - Reuniões e deslocações empresariais  
@@ -66,11 +66,11 @@ Cada viatura representa o equilíbrio perfeito entre **engenharia de precisão**
 
 ---
 
-## 💎 Compromisso Premium
+## Compromisso Premium
 
 Garantimos viaturas sempre em **excelente estado**, manutenção rigorosa e um serviço focado na **excelência**, para que cada viagem seja sinónimo de tranquilidade e distinção.
 
 ---
 
-> 💎 *Eleve a sua experiência de condução ao mais alto nível, onde a elegância encontra o desempenho.*
+> *Eleve a sua experiência de condução ao mais alto nível, onde a elegância encontra o desempenho.*
 ```
