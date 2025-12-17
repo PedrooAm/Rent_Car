@@ -1,41 +1,48 @@
-# Website
+# Rent A Car – Website de Documentação
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este repositório contém o código-fonte do website do **Rent A Car**. O site serve para publicitar a aplicação.
 
-## Installation
+O website foi construído com o [Docusaurus](https://docusaurus.io/), um gerador de sites estáticos moderno, e está publicado através do **GitHub Pages**.
 
-```bash
-yarn
-```
+---
+## Tecnologias Utilizadas
 
-## Local Development
+* **Framework**: [Docusaurus 3](https://docusaurus.io/) (Gerador de sites estáticos).
+* **Linguagem**: [MDX](https://mdxjs.com/) (Markdown com componentes React).
+* **Estilização**: CSS3 com variáveis personalizadas.
+* **Publicação**: [GitHub Pages](https://pages.github.com/).
 
-```bash
-yarn start
-```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+##  Desenvolvimento Local
 
-## Build
+Para testar o website do **Rent A Car** na tua máquina, segue estes passos:
 
-```bash
-yarn build
-```
+<div style="background-color: #020617; padding: 25px; border-radius: 12px; border: 1px solid #1e293b; font-family: monospace; font-size: 14px; margin: 20px 0; color: #ffffff;">
+  <div style="margin-bottom: 15px;">
+    <b style="color: #6ee7b7;"># 1. Instalar as dependências do projeto</b><br/>
+    <i style="color: #94a3b8;"># Garante que estás na pasta raiz do projeto</i><br/>
+    <span>npm install</span> 
+    <span style="color: #94a3b8; font-size: 12px;"> (ou yarn install)</span>
+  </div>
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+  <div style="margin-bottom: 15px;">
+    <b style="color: #6ee7b7;"># 2. Iniciar o servidor de desenvolvimento</b><br/>
+    <span>npm start</span>
+    <span style="color: #94a3b8; font-size: 12px;"> (ou yarn start)</span>
+  </div>
 
-## Deployment
+  <div>
+    <b style="color: #6ee7b7;"># 3. Aceder ao Browser</b><br/>
+    <span style="color: #a78bfa;">O site abrirá automaticamente em: </span>
+    <a href="http://localhost:3000" style="color: #00d9ff; text-decoration: underline;">http://localhost:3000</a>
+  </div>
+</div>
 
-Using SSH:
+---
 
-```bash
-USE_SSH=true yarn deploy
-```
+### Notas de Desenvolvimento:
 
-Not using SSH:
+* **Pré-requisitos:** Necessita do **Node.js** (versão 18 ou superior) instalado na sua máquina.
+* **Live Reload:** O Docusaurus atualiza o browser automaticamente sempre que guardas alterações nos ficheiros `.md` ou `.css`.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
