@@ -1,4 +1,4 @@
-# 🚗 Sistema Rent A Car (Aplicação de Consola Python)
+# Sistema Rent A Car (Aplicação de Consola Python)
 
 O **Rent A Car** é uma aplicação de consola desenvolvida em Python que simula o funcionamento de um sistema de aluguer de carros. O objetivo desta documentação é explicar a estrutura do projeto e o fluxo de utilização para os clientes e administradores.
 
@@ -8,6 +8,6 @@ A aplicação utiliza um **menu interativo**, onde o utilizador navega escolhend
 
 ---
 
-## ⚙️ 1. Estrutura do Projeto
+## 1. Estrutura do Projeto
 
 Abaixo está a organização dos diretórios e uma descrição dos ficheiros/pastas mais importantes:
